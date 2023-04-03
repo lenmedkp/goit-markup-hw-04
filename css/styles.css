@@ -154,6 +154,7 @@ align-items: center;
   letter-spacing: 0.02em;
   width: 264px;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .menu-contacts {
@@ -273,13 +274,36 @@ gap: 24px;
 }
 
 .social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4D5AE5;
-}
+  background-color: #4D5AE5;  
+ }
 
-.logo-link-down {
+ .social-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+ }
+
+ .social-list-icon {
+fill: #f4f4fd;
+ }
+
+ .social-list-link:hover,
+ .social-list-link:focus {
+  color: #404BBF;
+ }
+
+ .social-list-link:hover .social-list-icon,
+ .social-list-link:focus .social-list-icon {
+  fill: #f4f4fd;
+ }
+
+ .logo-link-down {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
