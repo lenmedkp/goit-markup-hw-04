@@ -173,9 +173,17 @@ align-items: center;
    }
 
 .hero {
+background-color:var(--background-color);
+background-image: linear-gradient(
+   rgba(46, 47, 66, 0.7),
+   rgba(46, 47, 66, 0.7)
+   ), 
+   url(../images/hero-bg.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 padding-top: 188px;
 padding-bottom: 188px;
-background-color:var(--background-color);
 }
 
 .hero-title {
@@ -305,7 +313,6 @@ fill: #f4f4fd;
  .footer-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-top: 100px;
   padding-bottom:100px;
     }
