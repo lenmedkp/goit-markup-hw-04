@@ -324,7 +324,7 @@ fill: #f4f4fd;
  }
 
  .section-customers-title {
-      font-style: normal;
+    font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.11;
@@ -333,8 +333,14 @@ fill: #f4f4fd;
    color:var(--text-color); 
    text-align: center;
    margin-bottom: 72px;
-       }
-  
+   }
+
+  .section-customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+   }
+
  .section-customers-link {
   display: flex;
   justify-content: center;
@@ -347,13 +353,7 @@ fill: #f4f4fd;
   color: #8e8f99;
   }
 
-  .section-customers-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
- }
-
- .section-customers-icon {
+  .section-customers-icon {
  fill: currentColor;
   }
  
@@ -363,12 +363,7 @@ fill: #f4f4fd;
   color: #404BBF;
  }
 
- .section-customers-icon:hover,
- .section-customers-icon:focus {
-  fill:#404BBF;
- }
-  
-  .footer-container {
+    .footer-container {
   display: flex;
   align-items: center;
   padding-top: 100px;
