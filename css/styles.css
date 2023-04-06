@@ -344,6 +344,7 @@ fill: #f4f4fd;
   background: #FFFFFF;
   border-radius: 4px;
   border: 1px solid #8e8f99;
+  color: #8e8f99;
   }
 
   .section-customers-list {
@@ -354,11 +355,12 @@ fill: #f4f4fd;
 
  .section-customers-icon {
  fill: #8e8f99;
- }
+  }
 
  .section-customers-link:hover, 
  .section-customers-link:focus {
   border: 1px solid #404BBF;
+  color: #8e8f99;
  }
 
  .section-customers-icon:hover,
@@ -417,6 +419,7 @@ fill: #f4f4fd;
 .social-media-list {
   display: flex;
   gap: 16px;
+  margin-top: 16px;
   }
 
  .social-media-text {
@@ -444,12 +447,9 @@ fill: #f4f4fd;
   height: 40px;
   border-radius: 50%;
   background-color: #4D5AE5; 
-  margin-top: 16px; 
- }
+   }
 
  .social-media {
-padding-top: 100px;
-padding-bottom: 132px;
 margin-left: 120px;
  }
 
