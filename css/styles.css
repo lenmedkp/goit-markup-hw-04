@@ -354,13 +354,13 @@ fill: #f4f4fd;
  }
 
  .section-customers-icon {
- fill: #8e8f99;
+ fill: currentColor;
   }
-
+ 
  .section-customers-link:hover, 
  .section-customers-link:focus {
   border: 1px solid #404BBF;
-  color: #8e8f99;
+  color: #404BBF;
  }
 
  .section-customers-icon:hover,
